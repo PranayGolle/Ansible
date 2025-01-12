@@ -1,0 +1,4 @@
+- name: vars in a file
+  COURSE: "Devops with aws"
+  DURATION: "120 hours"
+  TRAINER: "Siva kumar"
