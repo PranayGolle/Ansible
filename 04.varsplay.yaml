@@ -7,6 +7,7 @@
     TRAINER: "shiva kumar"
   tasks:
   - name: print using variables
+    vars:
       COURSE: "Ansible"
     ansible.builtin.debug:
       msg: "couse is {{COURSE}} and the duration is {{DURATION}} with {{TRAINER}}"
